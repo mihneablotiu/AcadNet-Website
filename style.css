@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+    font-size: 1rem;
+}
+
+.gradient {
+    background: rgb(2,0,36);
+    background: radial-gradient(
+        circle, 
+        rgba(2,0,36,1) 0%, 
+        rgba(65,7,103,1) 63%, 
+        rgba(3,10,130,1) 97%, 
+        rgba(0,18,255,1) 100%);
+}
+
+.page-header {
+    margin-top: 10rem;
+    font-size: 1.55rem;
+    color: white;
+}
+
+.page-footer {
+    font-size: 1.55rem;
+    color: white;
+}
+
+.content {
+    font-size: 1.55rem;
+    color: black;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+.gallery {
+    background-color: whitesmoke;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+.icon {
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
